@@ -3,7 +3,7 @@
 
 (in-package :cl-batteries/parse-asd)
 
-(defsystem :parse
+(defsystem :cl-batteries/parse
   :name "cl-batteries/parse"
   :version "1.0"
   :author "Jeffrey Massung"
