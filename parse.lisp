@@ -17,7 +17,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/parse
+(defpackage :boost-parse
   (:use :cl)
   (:export
    #:parse
@@ -64,7 +64,7 @@
    #:.skip-many1
    #:.between))
 
-(in-package :cl-batteries/parse)
+(in-package :boost-parse)
 
 ;;; ----------------------------------------------------
 
